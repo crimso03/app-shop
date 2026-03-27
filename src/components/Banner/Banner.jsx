@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaGooglePlay, FaApple } from "react-icons/fa";
-import heroImg from "../../assets/hero.png";
 const Banner = () => {
     return (
         <section className="bg-base-100 py-12 md:py-20">
@@ -42,14 +41,7 @@ const Banner = () => {
 
         
       </div>
-      {/* RIGHT IMAGE */}
-        <div className="flex-1 mt-10 flex justify-center">
-          <img
-            src={heroImg}
-            alt="App UI"
-            className="w-72 md:w-96 lg:w-[430px] max-w-full drop-shadow-2xl"
-          />
-        </div>
+      
     </section>
     
     );
