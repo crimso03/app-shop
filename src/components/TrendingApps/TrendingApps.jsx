@@ -17,7 +17,7 @@ const TrendingApps = () => {
         <div>
               <section className="py-16">
 
-      {/* Title */}
+      
       <div className="text-center mb-10">
         <h2 className="text-3xl md:text-4xl font-bold">
           Trending Apps
@@ -27,7 +27,7 @@ const TrendingApps = () => {
         </p>
       </div>
 
-      {/* Apps Grid */}
+      
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
         {topApps.map((app) => (
@@ -66,7 +66,7 @@ const TrendingApps = () => {
 
       </div>
 
-      {/* Show All Button */}
+      
       <div className="text-center mt-10">
         <Link to="/apps">
           <button className="btn btn-primary px-6">

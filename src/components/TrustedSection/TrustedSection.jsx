@@ -3,7 +3,7 @@ import heroImg from "../../assets/hero.png";
 const TrustedSection = () => {
     return (
         <div>
-            {/* RIGHT IMAGE */}
+            
         <div className="flex-1 mt-10 flex justify-center">
           <img
             src={heroImg}
