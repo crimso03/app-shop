@@ -27,15 +27,15 @@ const Apps = () => {
   );
 
   return (
-    <section className="max-w-7xl mx-auto px-4 py-12">
-      <div className="text-center mb-10">
+    <section className="max-w-7xl mx-auto  px-4 py-12">
+      <div className="text-center  mb-10">
         <h1 className="text-4xl font-bold">All Applications</h1>
-        <p className="text-gray-500 mt-2">
+        <p className="text-gray-500   mt-2">
           Explore all available apps in one place
         </p>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-between items-center gap-4 mb-8">
+      <div className="flex  flex-col md:flex-row  justify-between items-center gap-4 mb-8">
         <h2 className="text-xl font-semibold">Total Apps: {apps.length}</h2>
 
         <input
@@ -61,7 +61,7 @@ const Apps = () => {
                 className="w-64 md:w-80 mx-auto mb-6 object-contain"
               />
 
-              <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-4 uppercase">
+              <h2 className="text-3xl  md:text-5xl font-bold text-slate-900 mb-4 uppercase">
                 Opps!! App Not Found
               </h2>
 
@@ -74,21 +74,30 @@ const Apps = () => {
         </div>
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
           {filteredApps.map((app) => (
             <Link to={`/apps/${app.id}`} key={app.id}>
+
               <div className="card bg-base-100 shadow-md hover:shadow-xl transition duration-300 h-full">
+
                 <figure>
+
+
                   <img
                     src={app.image}
                     alt={app.title}
+
+
                     className="h-44 w-full object-cover"
                   />
                 </figure>
 
+
+
                 <div className="card-body">
                   <h2 className="card-title">{app.title}</h2>
 
-                  <div className="flex justify-between text-sm text-gray-500">
+                  <div className="flex justify-between  text-sm text-gray-500">
                     <span>{app.downloads.toLocaleString()} downloads</span>
                     <span className="flex items-center gap-1 text-yellow-500 font-semibold">
                       <FaStar />

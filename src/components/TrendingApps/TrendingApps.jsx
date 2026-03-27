@@ -18,22 +18,22 @@ const TrendingApps = () => {
               <section className="py-16">
 
       
-      <div className="text-center mb-10">
+      <div className="text-center  mb-10">
         <h2 className="text-3xl md:text-4xl font-bold">
           Trending Apps
         </h2>
-        <p className="text-gray-500 mt-2">
+        <p className="text-gray-500  mt-2">
           Explore our most popular applications
         </p>
       </div>
 
       
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4 gap-6">
 
         {topApps.map((app) => (
           <Link to={`/apps/${app.id}`} key={app.id}>
 
-            <div className="card bg-base-100 shadow-md hover:shadow-xl hover:scale-105 transition duration-300">
+            <div className="card bg-base-100 shadow-md hover:shadow-xl  hover:scale-105 transition duration-300">
 
               <figure>
                 <img
@@ -48,7 +48,7 @@ const TrendingApps = () => {
                   {app.title}
                 </h2>
 
-                <div className="flex justify-between text-sm text-gray-500">
+                <div className="flex  justify-between text-sm  text-gray-400">
                   <span>{app.downloads.toLocaleString()} downloads</span>
 
                   <span className="flex items-center gap-1 text-yellow-500 font-semibold">
@@ -69,7 +69,7 @@ const TrendingApps = () => {
       
       <div className="text-center mt-10">
         <Link to="/apps">
-          <button className="btn btn-primary px-6">
+          <button className="btn btn-primary  px-6">
             Show All
           </button>
         </Link>

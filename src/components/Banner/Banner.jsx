@@ -6,9 +6,9 @@ const Banner = () => {
       <div className="max-w-7xl mx-auto px-4 flex flex-col-reverse lg:flex-row items-center gap-10 lg:gap-16">
         
         
-        <div className="flex-1 text-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight">
-            We Build <span className="text-primary">Productive Apps</span>
+        <div className="flex-1  text-center">
+          <h1 className="text-4xl  md:text-5xl lg:text-6xl font-extrabold  leading-tight">
+            We Build <span className="text-primary">Productive </span>Apps
           </h1>
 
           <p className="py-5 md:py-6 text-gray-500 text-center text-base md:text-lg max-w-xl mx-auto ">
@@ -21,7 +21,7 @@ const Banner = () => {
               href="https://play.google.com/store"
               target="_blank"
               rel="noreferrer"
-              className="btn btn-primary flex items-center gap-2 px-6"
+              className="btn  btn-primary flex items-center  gap-2 px-6"
             >
               <FaGooglePlay className="text-lg" />
               Play Store
@@ -30,8 +30,7 @@ const Banner = () => {
             <a
               href="https://www.apple.com/app-store/"
               target="_blank"
-              rel="noreferrer"
-              className="btn btn-neutral flex items-center gap-2 px-6"
+              className="btn btn-neutral flex  items-center gap-2 px-6"
             >
               <FaApple className="text-lg" />
               App Store
